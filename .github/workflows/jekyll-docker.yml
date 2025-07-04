@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bundelkhand Enterprises | Pumps & Motors in Jhansi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62') center/cover no-repeat;
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 0.5rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 0.7rem 1rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Bundelkhand Enterprises</strong></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>Welcome to Bundelkhand Enterprises</h1>
+    <p>Your trusted source for Pumps & Motors in Jhansi</p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>Bundelkhand Enterprises is a Jhansi-based business offering high-quality pumps and motors for domestic, agricultural, and industrial needs. Trusted across the region, we focus on durability, service, and customer satisfaction.</p>
+  </div>
+
+  <div class="section" id="products">
+    <h2>Products & Services</h2>
+    <ul>
+      <li>Submersible Pumps (Domestic & Borewell)</li>
+      <li>Centrifugal Pumps</li>
+      <li>Openwell Pumps</li>
+      <li>Monoblock Pumps</li>
+      <li>Motors (Single-phase & Three-phase)</li>
+      <li>Pump Accessories: Starters, Pipes, Cables, Panels</li>
+    </ul>
+  </div>
+
+  <div class="section" id="gallery">
+    <h2>Gallery</h2>
+    <p>Images of our products and shop will be added here.</p>
+  </div>
+
+  <div class="section" id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>"Best pump dealer in Jhansi! Quick service and reasonable rates." – Rajeev S.</blockquote>
+    <blockquote>"Got a 1HP motor, working perfectly. Highly recommended." – Anita T.</blockquote>
+  </div>
+
+  <div class="section" id="faqs">
+    <h2>FAQs</h2>
+    <p><strong>Q:</strong> Do you offer home delivery in Jhansi?<br><strong>A:</strong> Yes, we provide delivery within Jhansi and nearby areas.</p>
+    <p><strong>Q:</strong> Can I get product guidance before purchase?<br><strong>A:</strong> Yes! Call or WhatsApp us for help.</p>
+    <p><strong>Q:</strong> Do you offer installation?<br><strong>A:</strong> We supply equipment and can connect you with trusted installers.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Baba Ka Atta, Bada Goan Gate, Near Mukti Dham, Jhansi, Uttar Pradesh</p>
+    <p><strong>Phone:</strong> <a href="tel:+917348578720">7348578720</a></p>
+    <p><strong>Email:</strong> <a href="mailto:bundelkhandenterprise01@gmail.com">bundelkhandenterprise01@gmail.com</a></p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <textarea placeholder="Your Query" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <a href="https://wa.me/917348578720" class="whatsapp-button" target="_blank">Chat on WhatsApp</a>
+
+  <footer>
+    &copy; 2025 Bundelkhand Enterprises. All rights reserved.
+  </footer>
+</body>
+</html>
